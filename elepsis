@@ -1,1 +1,7 @@
+def my_function():
+    print("This part of the function is implemented")
 
+    ...
+    print("This part of the function is also implented")
+
+my_function()
