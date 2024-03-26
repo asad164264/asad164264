@@ -1,0 +1,5 @@
+treasure_chest = {}
+treasure_location = (3,'x')
+treasure_chest[treasure_location] = 'Gold Coins'
+print(treasure_chest[treasure_location])
+
