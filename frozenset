@@ -1,0 +1,2 @@
+my_frozenset = frozenset(['apple', 'banana', 'mango'])
+print(('apple' in my_frozenset)) # not mutatable
