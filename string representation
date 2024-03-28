@@ -1,0 +1,22 @@
+class Book:
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author
+
+    def __repr__(self):
+        return f"Book(title = '{self.title}', author = '{self.author}')"
+
+my_book = Book(title="The Hobbit", author="J.R.R Tolkien")
+print(repr(my_book))
+
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        return f"Hello, I am {self.name} and I am {self.age}"
+
+new_person = Person("Asad", 33)
+print(str(new_person))
