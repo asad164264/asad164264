@@ -1,0 +1,35 @@
+a = {1,2,3,4,5}
+b = {3,4,5,6,7,8}
+print(a.intersection(b))
+print(a & b)
+
+print(a.union(b))
+print(a | b)
+
+print(a.difference(b))
+print(a-b)
+print(b-a)
+
+print(a.symmetric_difference(b))
+print(a^b)
+
+print(a.issuperset(b))
+print(a>=b)
+
+print(b.issubset(a))
+print(b<=a)
+
+from collections import Counter
+counterA  = Counter(['A','C','D','A','C'])
+print(counterA)
+
+my_multiset = Counter(['apple', 'banana','apple', 'banana', 'orange'])
+print(my_multiset)
+my_multiset['banana'] += 3
+print(my_multiset)
+del my_multiset['apple']
+print(my_multiset)
+
+print(f"total number of elements :{sum(my_multiset.values())}")
+print(f"Distint elements : {len(my_multiset)}")
+print(f"most common element: {my_multiset.most_common(1)}")
